@@ -1,16 +1,17 @@
 // add icons
-$('.playspace').append('<i class="em em-rooster"></i>');
-$('.playspace').append('<i class="fa fa-futbol-o"></i>');
+$('.playspace').append('<i class="em em-scream_cat"></i>');
+$('.playspace').append('<i class="em em-mouse"></i>');
+
 
 
 // set the initial positions
 
-$('.em-rooster').css({
+$('.em-scream_cat').css({
   top: 200,
   left: 300
 });
 
-$('.fa-futbol-o').css({
+$('.em-mouse').css({
   top: 210,
   left: 100
 });
@@ -18,7 +19,7 @@ $('.fa-futbol-o').css({
 
 // play!
 
-$('.em-rooster').animate({
+$('.em-mouse').animate({
   left: 50
 }, 1000);
 
